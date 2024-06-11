@@ -1,5 +1,4 @@
 # Adição
-
 print(1 + 2)
 # 3
 
@@ -10,5 +9,7 @@ print(10 - 2)
 # Multiplicação
 print(4 * 3)
 # 12
+
+
 
 
