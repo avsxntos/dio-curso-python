@@ -200,6 +200,9 @@ not ""
 # false
 
 # Parenteses
+# AND = PARA SER TRUE, TUDO TEM QUE SER TRUE
+# OR = PARA SER TRUE, APENAS UM TEM QUE SER TRUE
+
 saldo = 1000
 saque = 250
 limite = 200
@@ -210,3 +213,41 @@ saldo >= saque and saque <= limite or conta_especial and saldo >= saque
 
 (saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)
 #true
+
+
+# Operadores de Identidade
+
+# Exemplo
+curso = "Curso de Python"
+nome_curso = curso
+saldo, limite = 200, 200
+
+print (curso is nome_curso)
+# true
+
+print (curso is not nome_curso)
+# false
+
+print (saldo is limite)
+# true
+ 
+
+
+
+ # Operadores de Assoociação - Eles são operadores utializados para verificar se um objeto está presente em uma sequência.
+
+ #Exemplo
+curso = "Curso de Python"
+frutas = ["laranja", "uva", "limão"]
+saques = [1500, 100]
+
+# Operador de associação, pra verificar se aql objeto tá mesmo na sequencia já preescrita ali em cima, a maçã não existe ali, então vai dar verdadeiro dizendo que realmente a maçã não está contida lá
+"Python" in curso 
+# true
+
+"maçã" not in frutas
+# true
+
+200 in saques 
+# false
+
