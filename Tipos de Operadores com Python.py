@@ -53,3 +53,104 @@ print(10 ** (2 * 2))
 print(10 / 2 * 4)
 # 20.0
 
+# Exemplo 
+produto_1 = 20
+produto_2 = 10
+
+print(produto_1 + produto_2)
+print(produto_1 - produto_2)
+print(produto_1 / produto_2)
+print(produto_1 // produto_2)
+print(produto_1 * produto_2)
+print(produto_1 % produto_2) # % vai exibir o resto de sobra da conta
+print(produto_1 ** produto_2)
+
+
+# Operadores de Comparação
+# Igualdade
+saldo = 450
+saque = 200
+
+print(saldo == saque)
+# False
+
+print(saldo != saque) # este simbolo significa diferente
+# True
+
+# Maior que / maior ou igual
+
+saldo = 450
+saque = 200
+print(saldo > saque)
+#True
+
+print(saldo >= saque)
+# True
+
+# Menor que / menor ou igual
+print(saldo < saque)
+# False
+
+print(saldo <= saque)
+# False
+
+
+# Operadores de Atribuição
+
+#Atribuição Simples
+saldo = 500 
+
+print(saldo)
+# 500
+
+# Atribuição de Adição
+
+saldo = 500
+saldo += 200
+
+print(saldo)
+# 700
+
+# Atribuição de Subtração
+saldo = 500
+saldo =- 100
+
+print(saldo)
+# 400
+
+# Atribuição de Multiplicação
+saldo = 500
+saldo *= 2
+
+print(saldo)
+# 1000
+
+# Atribuição de Divisão
+saldo = 500
+saldo /= 5
+
+print(saldo)
+# 100.0
+
+saldo = 500
+saldo //= 5
+
+print(saldo)
+# 100
+
+
+# Atribuição com Módulo
+saldo = 500
+saldo %= 480
+
+print(saldo)
+# 20
+
+# Atribuição com Exponenciação
+saldo = 80
+saldo **= 2
+
+print(saldo)
+# 6400
+
+
