@@ -5,6 +5,10 @@ idade = 18
 nome = "Bruna"
 idade = 21
 
+# ou
+
+nome, idade = "Bruna", 21
+
 print(nome, idade)
 
 limite_saque_diario = 1000
