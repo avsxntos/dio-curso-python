@@ -154,3 +154,47 @@ print(saldo)
 # 6400
 
 
+# Operadores Lógicos
+#Exemplo
+
+saldo = 100
+saque = 200
+limite = 100
+
+saldo >= saque
+# true
+
+saque <= limite
+# false
+
+# Operador Lógico E
+saldo = 100
+saque = 200
+limite = 100
+
+saldo >= saque and saque <= limite
+# false
+
+
+# Operador OU
+saldo = 100
+saque = 200
+limite = 100
+
+saldo >= saque or saque <= limite
+# true
+
+# Operador de Negação
+contatos_emergencia = []
+
+not 1000 > 1500
+# true
+
+not contatos_emergencia
+# true
+
+not "saque 1500;"
+# false
+
+not ""
+# false
